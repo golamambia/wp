@@ -1,0 +1,134 @@
+@media screen and (max-width: 1199px) {
+.top-menu ul li{margin:0 15px;}
+.top-menu-wrapper::after{width: calc(50% - 270px);}
+.sbox{min-height:245px;}
+.products-carousel{padding:0 60px;}
+.products-carousel .owl-nav .owl-prev{left:0;}
+.products-carousel .owl-nav .owl-next{right:0;}
+.productThumb{ width: 100%; text-align: center; height: auto; }
+.productDec{ margin-top: 15px; width: 100%; padding: 0; }
+.contactSection .contactMap{ width: 50%; }
+.contactSection .contactAddress{ width: 50%; }
+}
+@media screen and (max-width: 991px) {
+#primary{width:100%; margin-bottom:30px;}
+#secondary{width:100%;}
+#back-top{display:none !important;}
+
+.top-menu-wrapper::after{width: calc(50% - 160px);}
+
+.btn-menu{float:left; color:#fff; font-size:32px; display:block; padding:10px 0;}
+.btn-menu:hover,
+.btn-menu:focus{color:#1e74c5 ;}
+.btn-menu.on{color:#1e74c5;}
+
+.top-menu{position:absolute; left:0; right:0; top:100%; background:#1f1f1f; padding:15px 0; margin:0;}
+.top-menu ul{padding:0 20px; margin:0; list-style:none;}
+.top-menu ul li{float:none; border-top:solid 1px #373737;}
+.top-menu ul li:first-child{border:none;}
+.top-menu ul li a{font-size:16px; text-align:center; letter-spacing:6px; color:#4a4a4a; border:none;}
+.top-menu ul li a:hover,
+.top-menu ul li:hover > a,
+.top-menu ul li.current_page_item > a,
+.top-menu ul li.current_page_ancestor > a,
+.top-menu ul li.current-menu-item > a,
+.top-menu ul li.current-menu-ancestor > a{color:#2895cd; letter-spacing:0;}
+.top-menu ul ul{display:block; width:auto; border:none; position:static; background:none; padding:0;}
+.top-menu ul ul li:first-child{border-top:solid 1px #373737;}
+.top-menu ul ul li a{letter-spacing:2px; color:#4a4a4a; font-size:14px;}
+
+.top-menu{	
+	opacity: 0;
+	z-index: 10;	
+	top: -9999em;
+	-webkit-box-shadow: 0 2px 7px rgba( 0, 0, 0, .4 );
+	   		box-shadow: 0 2px 7px rgba( 0, 0, 0, .4 );
+	   		
+	-webkit-transform: scale(.9);
+	   		transform: scale(.9);
+	
+	-webkit-transform-origin: center top;
+	   		transform-origin: center top;
+	
+	-webkit-transition-property: -webkit-transform, opacity, top;
+	   		transition-property: transform, opacity, top;
+	   		
+	-webkit-transition-duration: .3s, .3s, 0s;
+	   		transition-duration: .3s, .3s, 0s;
+	   		
+	-webkit-transition-delay: 0s, 0s, .3s;
+	   		transition-delay: 0s, 0s, .3s;
+}
+.top-menu.open{
+	top:100%;
+	opacity: 1;	
+	-webkit-transform: scale(1);
+	   		transform: scale(1);
+	   		
+	-webkit-transition-delay: 0s;
+	   		transition-delay: 0s;
+}
+
+.welcome-sec h1{font-size:24px;}
+
+.sbox{font-size:13px;}
+.sbox .thumb{width:100px; top:-40px;}
+.footer .widget ul.product-link li{width:100%;}
+.footer .widget{width:33.333% !important;}
+ul.certiList li{ width: 50%; }
+ul.certiList li:nth-child(4n+1){ clear: none; }
+ul.certiList li:nth-child(2n+1){ clear: left; }
+}
+@media screen and (max-width: 767px) {
+#content{padding:20px 0;}
+
+ul.top-link{font-size:14px; font-weight:400;}
+.top-menu-wrapper::after{width:210px;}
+.welcome-sec{margin-top:0;}
+ul.service-grid li.item{width:100%;}
+.sbox{min-height:inherit;}
+.sbox .thumb{width:120px; top:-50px;}
+
+.pbox{min-height:435px;}
+.contactSection .contactMap{ width: 100%; }
+.contactSection .contactAddress{ width: 100%; padding: 0; text-align: center; }
+}
+@media screen and (max-width: 639px) {
+.page-header .col-left{float:none; width:auto;}
+.breadcrumb{float:none;}
+
+ul.top-link{padding:0;}
+ul.top-link li{float:none;}
+.welcome-sec h1{font-size:20px;}
+.vision-mision-sec .box{padding:40px 20px;}
+.footer .widget{width:100% !important;}
+
+ul.product-grid li.item{width:50%;}
+ul.product-grid li.item:nth-child(2n+1){clear:left;}
+ul.product-grid li.item:nth-child(3n+1){clear:none;}
+.pbox{min-height:400px;}
+
+
+.service-item{margin-bottom:30px; min-height:inherit;}
+.service-item .thumb{position:static; height:200px; width:100%;
+-webkit-clip-path: inset(0 0 0 0) !important;
+clip-path: inset(0 0 0 0) !important;
+}
+.service-item .dec{float:none; width:100%; padding:20px !important;}
+
+}
+
+@media screen and (max-width: 479px) {
+.logo{width:140px;}
+ul.top-link{font-size:12px;}
+.products-carousel{padding:0 30px;}
+.products-carousel .owl-nav .owl-prev, .products-carousel .owl-nav .owl-next{width:30px; height:50px; line-height:50px;}
+
+}
+@media screen and (max-width: 400px) {
+ul.product-grid li.item{width:100%;}
+.pbox{min-height:inherit;}
+}
+
+@media screen and (min-width: 991px) {
+}
